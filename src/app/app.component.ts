@@ -16,7 +16,7 @@ import { products } from './products';
             </kendo-grid-column>
             <kendo-grid-column field="image" title="Image ">
               <ng-template kendoGridCellTemplate>
-                <img class="icon" src='image.jpg' />
+                <img class="icon" src='/image.jpg' />
               </ng-template>              
             </kendo-grid-column>
             <kendo-grid-pdf fileName="Products.pdf" paperSize="A4" [allPages]="true" [repeatHeaders]="true" margin="2cm">
